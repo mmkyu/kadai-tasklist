@@ -10,7 +10,7 @@
         </form>
 
         <p>
-            <a href="${pageComtext.request.contextPath}/index">一覧に戻る</a>
+            <a href="${pageContext.request.contextPath}/index">一覧に戻る</a>
         </p>
 
     </c:param>
