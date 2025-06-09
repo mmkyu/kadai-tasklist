@@ -27,9 +27,10 @@
                 <c:choose>
                     <c:when test="${i == page }">
                         <c:out value="${i}" />&nbsp;
+                        
                     </c:when>
                     <c:otherwise>
-                        <a href="${pageContext.request.contextPath}/index?>page=${i}"><c:out
+                        <a href="${pageContext.request.contextPath}/index?page=${i}"><c:out
                                 value="${i}" /></a>&nbsp; 
                     </c:otherwise>
                 </c:choose>
