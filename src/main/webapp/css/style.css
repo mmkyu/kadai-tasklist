@@ -69,8 +69,16 @@ button {
     padding: 5px 10px;
 }
 
-#footer {
-    text-align: center;
+
+
+#flush_success{
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #155724;
+    background-color: #d4edda;
 }
 
 #flush_error {
@@ -83,12 +91,7 @@ button {
     background-color: #f8d7da;
 }
 
-#flush_success {
-    width: 100%;
-    padding-top: 28px;
-    padding-left: 2%;
-    padding-bottom: 28px;
-    margin-bottom: 15px;
-    color: #155724;
+#footer {
+    text-align: center;
     background-color: #d4edda;
 }
